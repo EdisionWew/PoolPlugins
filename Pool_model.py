@@ -14,7 +14,7 @@ class pool(nn.Module):
         pool1 = self.pool1(x)
         pool2 = self.pool2(x)
         out = self.relu1(pool1 + pool2)
-        return x
+        return out
         
 
         
